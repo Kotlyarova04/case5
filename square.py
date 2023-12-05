@@ -9,7 +9,7 @@ def square(size):
         turtle.right(90)
     turtle.right(10)
     turtle.up()
-    turtle.fd(15)
+    turtle.fd(size*0.05)
     turtle.pd()
     square(size - 10)
 

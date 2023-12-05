@@ -17,7 +17,6 @@ def color_tree(n, size):
 def main():
     n = int(input('Глубина рекурсии:'))
     a = int(input('Длина стороны:'))
-    turtle.speed(100)
     turtle.left(90)
     color_tree(n, a)
     turtle.done()
